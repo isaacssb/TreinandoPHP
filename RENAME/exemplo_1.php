@@ -20,5 +20,6 @@ if (!file_exists($dir1 . DIRECTORY_SEPARATOR . $filename)) {
 // O nome rename pode ser estranho, já que você vai mover um arquivo
 // Porém pensando em como o sistema operacional funciona, com a função rename está renomeando o caminho do arquivo
 // Sendo assim faz sentido ser rename()
+// 1º origem / 2º Destino
 rename($dir1 . DIRECTORY_SEPARATOR . $filename, $dir2 . DIRECTORY_SEPARATOR . $filename);
 ?>
